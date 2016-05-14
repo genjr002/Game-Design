@@ -1,0 +1,196 @@
+﻿Log file open, 05/14/16 18:54:16
+LogInit:Display: Running engine for game: Effulgent
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2034157237) SRandInit(2034157238).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.066552
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.14-09.24.16:309][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.14-09.24.16:309][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.14-09.24.16:317][  0]LogInit: Computer: SOVEREIGN
+[2016.05.14-09.24.16:317][  0]LogInit: User: Caroline
+[2016.05.14-09.24.16:317][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.14-09.24.16:317][  0]LogInit: High frequency timer resolution =2.338344 MHz
+[2016.05.14-09.24.16:317][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.14-09.24.16:317][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.14-09.24.16:317][  0]LogMemory: Process Physical Memory: 314.21 MB used, 314.21 MB peak
+[2016.05.14-09.24.16:317][  0]LogMemory: Process Virtual Memory: 315.05 MB used, 315.05 MB peak
+[2016.05.14-09.24.16:317][  0]LogMemory: Physical Memory: 3834.37 MB used, 16302.99 MB total
+[2016.05.14-09.24.16:317][  0]LogMemory: Virtual Memory: 638.78 MB used, 134217728.00 MB total
+[2016.05.14-09.24.16:359][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.05.14-09.24.16:741][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.14-09.24.16:767][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 765M' (Feature Level 11_0)
+[2016.05.14-09.24.16:767][  0]LogD3D11RHI:       1989MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 1 output[s]
+[2016.05.14-09.24.16:772][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.05.14-09.24.16:772][  0]LogD3D11RHI:       112MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2016.05.14-09.24.16:774][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.14-09.24.16:774][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2016.05.14-09.24.16:774][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.14-09.24.16:780][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.14-09.24.16:780][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 765M
+[2016.05.14-09.24.16:780][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.05.14-09.24.16:780][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.05.14-09.24.16:780][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.14-09.24.16:792][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.14-09.24.16:809][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Intermediate/Shaders/WorkingDirectory/7812/).
+[2016.05.14-09.24.16:809][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Caroline/AppData/Local/Temp/UnrealShaderWorkingDir/8655E2C2430875835A97D8BE8E5D676F/'.
+[2016.05.14-09.24.16:809][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.14-09.24.19:592][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.14-09.24.19:596][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.14-09.24.19:601][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.14-09.24.19:605][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.14-09.24.19:609][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.14-09.24.19:612][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.14-09.24.19:616][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.14-09.24.19:620][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.14-09.24.19:625][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.14-09.24.19:630][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.14-09.24.19:634][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.14-09.24.19:642][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.14-09.24.19:642][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.14-09.24.19:643][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.14-09.24.19:660][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.14-09.24.19:664][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.14-09.24.19:667][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.14-09.24.19:670][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.14-09.24.19:674][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.14-09.24.19:674][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.14-09.24.19:737][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.14-09.24.19:791][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.14-09.24.19:791][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.14-09.24.19:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.14-09.24.19:791][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.14-09.24.19:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.14-09.24.19:791][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.14-09.24.19:806][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.14-09.24.19:817][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Caroline/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.14-09.24.22:902][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.14-09.24.22:903][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.14-09.24.22:953][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.14-09.24.23:137][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.14-09.24.23:137][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.14-09.24.23:137][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.14-09.24.23:490][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.14-09.24.23:490][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.14-09.24.23:490][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.14-09.24.23:496][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.14-09.24.24:467][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.14-09.24.24:467][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.14-09.24.29:411][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.14-09.24.29:411][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.14-09.24.29:411][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.14-09.24.29:411][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.14-09.24.29:411][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.14-09.24.29:411][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.14-09.24.50:810][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.14-09.24.51:391][  0]LogAssetRegistry: FAssetRegistry took 0.0238 seconds to start up
+[2016.05.14-09.24.54:250][  0]SourceControl: Info Source control is disabled
+[2016.05.14-09.24.54:251][  0]SourceControl: Info Source control is disabled
+[2016.05.14-09.24.54:371][  0]SourceControl: Info Source control is disabled
+[2016.05.14-09.24.54:499][  0]SourceControl: Info Source control is disabled
+[2016.05.14-09.24.55:287][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.14-09.24.56:101][  0]LogEngine: Initializing Engine...
+[2016.05.14-09.24.59:546][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.14-09.24.59:562][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.14-09.24.59:589][  0]LogInit: FAudioDevice initialized.
+[2016.05.14-09.24.59:613][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.14-09.24.59:616][  0]LogInit: Texture streaming: Enabled
+[2016.05.14-09.25.01:992][  0]LogInit: Transaction tracking system initialized
+[2016.05.14-09.25.02:150][  0]BlueprintLog: New page: Editor Load
+[2016.05.14-09.25.05:619][  0]LocalizationService: Info Localization service is disabled
+[2016.05.14-09.25.07:769][  0]LogConsoleResponse:Display: 
+[2016.05.14-09.25.10:975][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.14-09.25.10:975][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.14-09.25.10:975][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.14-09.25.11:090][  0]LogFileCache: Scanning file cache for directory 'D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Content/' took 0.02s
+[2016.05.14-09.25.13:048][  0]SourceControl: Info Source control is disabled
+[2016.05.14-09.25.13:048][  0]Cmd: MAP LOAD FILE="../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.14-09.25.13:058][  0]LightingResults: New page: Lighting Build
+[2016.05.14-09.25.13:071][  0]MapCheck: New page: Map Check
+[2016.05.14-09.25.13:071][  0]LightingResults: New page: Lighting Build
+[2016.05.14-09.25.15:848][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
+[2016.05.14-09.25.15:848][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.15:848][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Air_Mat
+[2016.05.14-09.25.15:848][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
+[2016.05.14-09.25.15:848][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.15:848][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Earth_Mat
+[2016.05.14-09.25.15:848][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
+[2016.05.14-09.25.15:848][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.15:848][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Fire_Mat
+[2016.05.14-09.25.15:848][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
+[2016.05.14-09.25.15:848][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.15:848][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Water_Mat
+[2016.05.14-09.25.17:212][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
+[2016.05.14-09.25.17:213][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.17:213][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Air_Mat
+[2016.05.14-09.25.17:213][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
+[2016.05.14-09.25.17:213][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.17:213][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Earth_Mat
+[2016.05.14-09.25.17:213][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
+[2016.05.14-09.25.17:213][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.17:213][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Fire_Mat
+[2016.05.14-09.25.17:213][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
+[2016.05.14-09.25.17:213][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.17:213][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Water_Mat
+[2016.05.14-09.25.17:218][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
+[2016.05.14-09.25.17:218][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading NULL.
+[2016.05.14-09.25.17:218][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
+[2016.05.14-09.25.17:219][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading NULL.
+[2016.05.14-09.25.17:219][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
+[2016.05.14-09.25.17:219][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading NULL.
+[2016.05.14-09.25.17:219][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
+[2016.05.14-09.25.17:219][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading NULL.
+[2016.05.14-09.25.17:219][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
+[2016.05.14-09.25.17:219][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading NULL.
+[2016.05.14-09.25.17:219][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
+[2016.05.14-09.25.17:219][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading NULL.
+[2016.05.14-09.25.17:220][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
+[2016.05.14-09.25.17:220][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading NULL.
+[2016.05.14-09.25.17:220][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
+[2016.05.14-09.25.17:220][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading NULL.
+[2016.05.14-09.25.17:266][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
+[2016.05.14-09.25.17:266][  0]LoadErrors: Info Failed to load /Game/Textures/Air_Mat.Air_Mat Referenced by Sphere
+[2016.05.14-09.25.17:266][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading NULL.
+[2016.05.14-09.25.17:266][  0]LoadErrors: Info Failed to load /Game/Textures/Air_Mat.Air_Mat Referenced by Sphere
+[2016.05.14-09.25.17:267][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
+[2016.05.14-09.25.17:267][  0]LoadErrors: Info Failed to load /Game/Textures/Earth_Mat.Earth_Mat Referenced by Sphere
+[2016.05.14-09.25.17:267][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading NULL.
+[2016.05.14-09.25.17:267][  0]LoadErrors: Info Failed to load /Game/Textures/Earth_Mat.Earth_Mat Referenced by Sphere
+[2016.05.14-09.25.17:267][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
+[2016.05.14-09.25.17:267][  0]LoadErrors: Info Failed to load /Game/Textures/Fire_Mat.Fire_Mat Referenced by Sphere
+[2016.05.14-09.25.17:268][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading NULL.
+[2016.05.14-09.25.17:268][  0]LoadErrors: Info Failed to load /Game/Textures/Fire_Mat.Fire_Mat Referenced by Sphere
+[2016.05.14-09.25.17:284][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
+[2016.05.14-09.25.17:284][  0]LoadErrors: Info Failed to load /Game/Textures/Water_Mat.Water_Mat Referenced by Sphere
+[2016.05.14-09.25.17:284][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading NULL.
+[2016.05.14-09.25.17:284][  0]LoadErrors: Info Failed to load /Game/Textures/Water_Mat.Water_Mat Referenced by Sphere
+[2016.05.14-09.25.22:104][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.14-09.25.22:127][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ground.StaticMeshComponent0)
+[2016.05.14-09.25.22:129][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder_145.StaticMeshComponent0)
+[2016.05.14-09.25.22:130][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder2.StaticMeshComponent0)
+[2016.05.14-09.25.22:132][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
+[2016.05.14-09.25.22:141
