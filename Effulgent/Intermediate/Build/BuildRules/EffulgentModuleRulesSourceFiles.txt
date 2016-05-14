@@ -1,0 +1,3 @@
+D:\Caroline\Documents\GitHub\Game-Design\Effulgent\Source\Effulgent\Effulgent.Build.cs
+D:\Caroline\Documents\GitHub\Game-Design\Effulgent\Source\Effulgent.Target.cs
+D:\Caroline\Documents\GitHub\Game-Design\Effulgent\Source\EffulgentEditor.Target.cs

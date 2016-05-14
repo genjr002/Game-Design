@@ -55,4 +55,506 @@ LogInit: Object subsystem initialized
 [2016.05.14-09.25.21:542][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
 [2016.05.14-09.25.21:542][  0]LogD3D11RHI:      Driver Date: Unknown
 [2016.05.14-09.25.21:542][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.05.14-09.25.21:555][  0]
+[2016.05.14-09.25.21:555][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.14-09.25.21:570][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Intermediate/Shaders/WorkingDirectory/6972/).
+[2016.05.14-09.25.21:571][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Caroline/AppData/Local/Temp/UnrealShaderWorkingDir/AB8E79E44FA0F0D9415244A128FFA581/'.
+[2016.05.14-09.25.21:571][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.14-09.25.22:557][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.14-09.25.22:560][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.14-09.25.22:564][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.14-09.25.22:568][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.14-09.25.22:571][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.14-09.25.22:574][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.14-09.25.22:576][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.14-09.25.22:579][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.14-09.25.22:582][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.14-09.25.22:585][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.14-09.25.22:587][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.14-09.25.22:594][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.14-09.25.22:594][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.14-09.25.22:595][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.14-09.25.22:611][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.14-09.25.22:614][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.14-09.25.22:616][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.14-09.25.22:619][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.14-09.25.22:622][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.14-09.25.22:622][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.14-09.25.22:679][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.14-09.25.22:731][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.14-09.25.22:731][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.14-09.25.22:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.14-09.25.22:731][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.14-09.25.22:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.14-09.25.22:731][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.14-09.25.22:748][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.14-09.25.22:760][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Caroline/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.14-09.25.22:938][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.14-09.25.22:938][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.14-09.25.22:972][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.14-09.25.23:090][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.14-09.25.23:090][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.14-09.25.23:090][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.14-09.25.23:302][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.14-09.25.23:302][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.14-09.25.23:302][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.14-09.25.23:305][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.14-09.25.23:373][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.14-09.25.23:373][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.14-09.25.23:483][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.14-09.25.23:483][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.14-09.25.23:483][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.14-09.25.23:483][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.14-09.25.23:483][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.14-09.25.23:483][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.14-09.25.24:076][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.14-09.25.24:175][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2016.05.14-09.25.24:310][  0]SourceControl: Info Source control is disabled
+[2016.05.14-09.25.24:311][  0]SourceControl: Info Source control is disabled
+[2016.05.14-09.25.24:321][  0]SourceControl: Info Source control is disabled
+[2016.05.14-09.25.24:328][  0]SourceControl: Info Source control is disabled
+[2016.05.14-09.25.24:433][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.14-09.25.24:498][  0]LogEngine: Initializing Engine...
+[2016.05.14-09.25.24:627][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.14-09.25.24:631][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.14-09.25.24:641][  0]LogInit: FAudioDevice initialized.
+[2016.05.14-09.25.24:664][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.14-09.25.24:668][  0]LogInit: Texture streaming: Enabled
+[2016.05.14-09.25.24:684][  0]LogInit: Transaction tracking system initialized
+[2016.05.14-09.25.24:697][  0]BlueprintLog: New page: Editor Load
+[2016.05.14-09.25.24:748][  0]LocalizationService: Info Localization service is disabled
+[2016.05.14-09.25.24:939][  0]LogConsoleResponse:Display: 
+[2016.05.14-09.25.25:031][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.14-09.25.25:031][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.14-09.25.25:031][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.14-09.25.25:075][  0]LogFileCache: Scanning file cache for directory 'D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Content/' took 0.02s
+[2016.05.14-09.25.25:075][  0]SourceControl: Info Source control is disabled
+[2016.05.14-09.25.25:075][  0]Cmd: MAP LOAD FILE="../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.14-09.25.25:076][  0]LightingResults: New page: Lighting Build
+[2016.05.14-09.25.25:077][  0]MapCheck: New page: Map Check
+[2016.05.14-09.25.25:077][  0]LightingResults: New page: Lighting Build
+[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
+[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.25:244][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Air_Mat
+[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
+[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.25:244][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Earth_Mat
+[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
+[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.25:244][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Fire_Mat
+[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
+[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.25:244][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Water_Mat
+[2016.05.14-09.25.25:318][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
+[2016.05.14-09.25.25:318][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.25:318][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Air_Mat
+[2016.05.14-09.25.25:318][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
+[2016.05.14-09.25.25:318][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.25:318][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Earth_Mat
+[2016.05.14-09.25.25:319][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
+[2016.05.14-09.25.25:319][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.25:319][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Fire_Mat
+[2016.05.14-09.25.25:319][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
+[2016.05.14-09.25.25:319][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.05.14-09.25.25:319][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Water_Mat
+[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
+[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading NULL.
+[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
+[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading NULL.
+[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
+[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading NULL.
+[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
+[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading NULL.
+[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
+[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading NULL.
+[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
+[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading NULL.
+[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
+[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading NULL.
+[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
+[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading NULL.
+[2016.05.14-09.25.25:378][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
+[2016.05.14-09.25.25:378][  0]LoadErrors: Info Failed to load /Game/Textures/Air_Mat.Air_Mat Referenced by Sphere
+[2016.05.14-09.25.25:379][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading NULL.
+[2016.05.14-09.25.25:379][  0]LoadErrors: Info Failed to load /Game/Textures/Air_Mat.Air_Mat Referenced by Sphere
+[2016.05.14-09.25.25:380][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
+[2016.05.14-09.25.25:380][  0]LoadErrors: Info Failed to load /Game/Textures/Earth_Mat.Earth_Mat Referenced by Sphere
+[2016.05.14-09.25.25:380][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading NULL.
+[2016.05.14-09.25.25:380][  0]LoadErrors: Info Failed to load /Game/Textures/Earth_Mat.Earth_Mat Referenced by Sphere
+[2016.05.14-09.25.25:380][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
+[2016.05.14-09.25.25:380][  0]LoadErrors: Info Failed to load /Game/Textures/Fire_Mat.Fire_Mat Referenced by Sphere
+[2016.05.14-09.25.25:380][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading NULL.
+[2016.05.14-09.25.25:380][  0]LoadErrors: Info Failed to load /Game/Textures/Fire_Mat.Fire_Mat Referenced by Sphere
+[2016.05.14-09.25.25:393][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
+[2016.05.14-09.25.25:393][  0]LoadErrors: Info Failed to load /Game/Textures/Water_Mat.Water_Mat Referenced by Sphere
+[2016.05.14-09.25.25:393][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading NULL.
+[2016.05.14-09.25.25:393][  0]LoadErrors: Info Failed to load /Game/Textures/Water_Mat.Water_Mat Referenced by Sphere
+[2016.05.14-09.25.25:577][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.14-09.25.25:580][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ground.StaticMeshComponent0)
+[2016.05.14-09.25.25:583][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder_145.StaticMeshComponent0)
+[2016.05.14-09.25.25:583][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder2.StaticMeshComponent0)
+[2016.05.14-09.25.25:585][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
+[2016.05.14-09.25.25:594][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_21.StaticMeshComponent0)
+[2016.05.14-09.25.25:594][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.05.14-09.25.25:595][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube3_94.StaticMeshComponent0)
+[2016.05.14-09.25.25:596][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube4.StaticMeshComponent0)
+[2016.05.14-09.25.25:597][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube13_47.StaticMeshComponent0)
+[2016.05.14-09.25.25:597][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
+[2016.05.14-09.25.25:597][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder5.StaticMeshComponent0)
+[2016.05.14-09.25.25:600][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube22_175.StaticMeshComponent0)
+[2016.05.14-09.25.25:612][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.14-09.25.25:613][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.14-09.25.25:674][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.705ms to complete.
+[2016.05.14-09.25.25:674][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.599
+[2016.05.14-09.25.25:789][  0]LogCollectionManager: Loaded 0 collections in 0.000986 seconds
+[2016.05.14-09.25.25:828][  0]LogFileCache: Scanning file cache for directory 'D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/Collections/' took 0.01s
+[2016.05.14-09.25.25:828][  0]LogFileCache: Scanning file cache for directory 'D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Developers/Caroline/Collections/' took 0.01s
+[2016.05.14-09.25.25:828][  0]LogFileCache: Scanning file cache for directory 'D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Collections/' took 0.01s
+[2016.05.14-09.25.25:828][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.14-09.25.25:835][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 1979 classes and 343 folders.
+[2016.05.14-09.25.25:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.14-09.25.25:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.14-09.25.25:838][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.05.14-09.25.25:841][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.14-09.25.25:845][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.14-09.25.27:487][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.05.14-09.25.27:559][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.05.14-09.25.27:760][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.14-09.25.27:873][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.14-09.25.28:012][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.05.14-09.25.28:012][  0]LogLoad: Full Startup: 7.62 seconds (BP compile: 0.04 seconds)
+[2016.05.14-09.25.28:012][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.05.14-09.25.28:474][  0]LogOcInput: OculusInput pre-init called
+[2016.05.14-09.25.28:848][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.05.14-09.25.29:245][  0]LogRenderer: Reallocating scene render targets to support 1064x424 (Frame:2).
+[2016.05.14-09.25.29:736][  2]LogAssetRegistry: Asset discovery search completed in 5.5820 seconds
+[2016.05.14-09.25.29:848][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.05.14-09.25.29:848][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.112593 seconds (updated 0 objects)
+[2016.05.14-09.25.44:968][589]LogRenderer: Reallocating scene render targets to support 1260x576 (Frame:19).
+[2016.05.14-09.25.49:695][869]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.14-09.25.49:695][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.14-09.25.49:719][869]PIE: New page: PIE session: ThirdPersonExampleMap (15 May 2016 4:25:49 am)
+[2016.05.14-09.25.49:719][869]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.14-09.25.49:764][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045476s)
+[2016.05.14-09.25.49:765][869]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.14-09.25.49:765][869]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2016.05.14-09.25.49:766][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.046930s)
+[2016.05.14-09.25.49:784][869]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.14-09.25.49:793][869]LogInit: FAudioDevice initialized.
+[2016.05.14-09.25.49:915][869]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.14-09.25.49:918][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ground.StaticMeshComponent0)
+[2016.05.14-09.25.49:921][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder_145.StaticMeshComponent0)
+[2016.05.14-09.25.49:921][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder2.StaticMeshComponent0)
+[2016.05.14-09.25.49:924][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
+[2016.05.14-09.25.49:937][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_21.StaticMeshComponent0)
+[2016.05.14-09.25.49:937][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.05.14-09.25.49:939][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube3_94.StaticMeshComponent0)
+[2016.05.14-09.25.49:939][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube4.StaticMeshComponent0)
+[2016.05.14-09.25.49:940][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube13_47.StaticMeshComponent0)
+[2016.05.14-09.25.49:940][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
+[2016.05.14-09.25.49:941][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder5.StaticMeshComponent0)
+[2016.05.14-09.25.49:944][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube22_175.StaticMeshComponent0)
+[2016.05.14-09.25.49:948][869]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.05.14-18.55.49
+[2016.05.14-09.25.49:949][869]LogWorld: Bringing up level for play took: 0.032262
+[2016.05.14-09.25.49:968][869]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
+[2016.05.14-09.25.49:970][869]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.381
+[2016.05.14-09.25.49:970][869]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.14-09.25.54:712][143]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.14-09.25.54:792][143]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.14-09.26.03:536][659]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (PlayerCharacter)
+[2016.05.14-09.26.25:818][876]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 108 classes and 0 folders.
+[2016.05.14-09.26.40:512][645]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2016.05.14-09.27.13:953][602]LogEditorViewport: Clicking Background
+[2016.05.14-09.27.48:407][138]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2016.05.14-09.28.04:048][  8]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2016.05.14-09.28.10:776][352]LogEditorViewport: Clicking Background
+[2016.05.14-09.28.26:390][244]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (PlayerCharacter)
+[2016.05.14-09.29.00:680][207]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.14-09.29.02:182][207]LogSavePackage: Save=966.58ms
+[2016.05.14-09.29.02:182][207]LogSavePackage: Moving '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/ThirdPersonExampleMapFA83D019476B5B1400A690969643BAE9.tmp' to '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.05.14-09.29.02:187][207]LogSavePackage: Total save time: 992.21ms
+[2016.05.14-09.29.02:187][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.05.14-09.29.02:259][207]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.147
+[2016.05.14-09.29.11:921][556]LogAIModule: Creating AISystem for world EffulgentW1
+[2016.05.14-09.29.11:923][556]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.P_Torch_2.ParticleSystemComponent0
+[2016.05.14-09.29.11:923][556]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.P_Torch2_5.ParticleSystemComponent0
+[2016.05.14-09.29.11:923][556]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.P_Torch3_8.ParticleSystemComponent0
+[2016.05.14-09.29.11:923][556]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.P_Torch4_11.ParticleSystemComponent0
+[2016.05.14-09.29.11:927][556]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.P_Torch5_2.ParticleSystemComponent0
+[2016.05.14-09.29.12:006][556]Cmd: MAP LOAD FILE="../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/World1/EffulgentW1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.14-09.29.12:006][556]LightingResults: New page: Lighting Build
+[2016.05.14-09.29.12:025][556]LoadErrors: New page: Loading map: EffulgentW1.umap
+[2016.05.14-09.29.12:058][556]MapCheck: New page: Map Check
+[2016.05.14-09.29.12:058][556]LightingResults: New page: Lighting Build
+[2016.05.14-09.29.12:082][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Ground.StaticMeshComponent0)
+[2016.05.14-09.29.12:082][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cylinder_145.StaticMeshComponent0)
+[2016.05.14-09.29.12:083][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cylinder2.StaticMeshComponent0)
+[2016.05.14-09.29.12:084][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
+[2016.05.14-09.29.12:087][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube_21.StaticMeshComponent0)
+[2016.05.14-09.29.12:087][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.05.14-09.29.12:088][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube3_94.StaticMeshComponent0)
+[2016.05.14-09.29.12:088][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube4.StaticMeshComponent0)
+[2016.05.14-09.29.12:088][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube13_47.StaticMeshComponent0)
+[2016.05.14-09.29.12:089][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
+[2016.05.14-09.29.12:089][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cylinder5.StaticMeshComponent0)
+[2016.05.14-09.29.12:090][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube22_175.StaticMeshComponent0)
+[2016.05.14-09.29.12:090][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.BurtReynoldsBase.StaticMeshComponent0)
+[2016.05.14-09.29.12:090][556]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
+[2016.05.14-09.29.12:090][556]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
+[2016.05.14-09.29.12:099][556]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.14-09.29.12:127][556]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.14-09.29.12:185][556]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.957ms to complete.
+[2016.05.14-09.29.12:186][556]LogFileHelpers: Loading map 'EffulgentW1' took 0.233
+[2016.05.14-09.29.24:293][263]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.14-09.29.24:297][263]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Torch_2.ParticleSystemComponent0
+[2016.05.14-09.29.24:297][263]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Torch2_5.ParticleSystemComponent0
+[2016.05.14-09.29.24:297][263]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Torch3_8.ParticleSystemComponent0
+[2016.05.14-09.29.24:297][263]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Torch4_11.ParticleSystemComponent0
+[2016.05.14-09.29.24:300][263]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Torch5_2.ParticleSystemComponent0
+[2016.05.14-09.29.24:330][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.14-09.29.30:959][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
+[2016.05.14-09.29.30:959][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.14-09.29.30:959][556]PIE: New page: PIE session: EffulgentW1 (15 May 2016 4:29:30 am)
+[2016.05.14-09.29.30:959][556]LogPlayLevel: Creating play world package: /Game/World1/UEDPIE_0_EffulgentW1
+[2016.05.14-09.29.31:007][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048204s)
+[2016.05.14-09.29.31:008][556]LogAIModule: Creating AISystem for world EffulgentW1
+[2016.05.14-09.29.31:008][556]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2016.05.14-09.29.31:008][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/World1/EffulgentW1.EffulgentW1 to /Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1 (0.049240s)
+[2016.05.14-09.29.31:025][556]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.14-09.29.31:034][556]LogInit: FAudioDevice initialized.
+[2016.05.14-09.29.31:061][556]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.14-09.29.31:063][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Ground.StaticMeshComponent0)
+[2016.05.14-09.29.31:066][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder_145.StaticMeshComponent0)
+[2016.05.14-09.29.31:066][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder2.StaticMeshComponent0)
+[2016.05.14-09.29.31:069][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
+[2016.05.14-09.29.31:082][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube_21.StaticMeshComponent0)
+[2016.05.14-09.29.31:082][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.05.14-09.29.31:083][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube3_94.StaticMeshComponent0)
+[2016.05.14-09.29.31:083][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube4.StaticMeshComponent0)
+[2016.05.14-09.29.31:085][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube13_47.StaticMeshComponent0)
+[2016.05.14-09.29.31:085][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
+[2016.05.14-09.29.31:085][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder5.StaticMeshComponent0)
+[2016.05.14-09.29.31:089][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube22_175.StaticMeshComponent0)
+[2016.05.14-09.29.31:091][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.BurtReynoldsBase.StaticMeshComponent0)
+[2016.05.14-09.29.31:091][556]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
+[2016.05.14-09.29.31:091][556]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
+[2016.05.14-09.29.31:093][556]LogWorld: Bringing World /Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1 up for play (max tick rate 60) at 2016.05.14-18.59.31
+[2016.05.14-09.29.31:094][556]LogWorld: Bringing up level for play took: 0.032333
+[2016.05.14-09.29.31:096][556]PIE: Info Play in editor start time for /Game/World1/UEDPIE_0_EffulgentW1 0.745
+[2016.05.14-09.29.31:096][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
+[2016.05.14-09.29.35:484][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
+[2016.05.14-09.29.35:519][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
+[2016.05.14-09.29.40:522][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fire_Interactable_1)
+[2016.05.14-09.29.45:387][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
+[2016.05.14-09.29.45:387][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.14-09.29.45:387][400]PIE: New page: PIE session: EffulgentW1 (15 May 2016 4:29:45 am)
+[2016.05.14-09.29.45:387][400]LogPlayLevel: Creating play world package: /Game/World1/UEDPIE_0_EffulgentW1
+[2016.05.14-09.29.45:437][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050426s)
+[2016.05.14-09.29.45:438][400]LogAIModule: Creating AISystem for world EffulgentW1
+[2016.05.14-09.29.45:438][400]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2016.05.14-09.29.45:439][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/World1/EffulgentW1.EffulgentW1 to /Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1 (0.051727s)
+[2016.05.14-09.29.45:463][400]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.14-09.29.45:471][400]LogInit: FAudioDevice initialized.
+[2016.05.14-09.29.45:501][400]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.14-09.29.45:502][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Ground.StaticMeshComponent0)
+[2016.05.14-09.29.45:505][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder_145.StaticMeshComponent0)
+[2016.05.14-09.29.45:506][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder2.StaticMeshComponent0)
+[2016.05.14-09.29.45:508][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
+[2016.05.14-09.29.45:521][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube_21.StaticMeshComponent0)
+[2016.05.14-09.29.45:521][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.05.14-09.29.45:523][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube3_94.StaticMeshComponent0)
+[2016.05.14-09.29.45:523][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube4.StaticMeshComponent0)
+[2016.05.14-09.29.45:524][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube13_47.StaticMeshComponent0)
+[2016.05.14-09.29.45:524][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
+[2016.05.14-09.29.45:524][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder5.StaticMeshComponent0)
+[2016.05.14-09.29.45:528][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube22_175.StaticMeshComponent0)
+[2016.05.14-09.29.45:530][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.BurtReynoldsBase.StaticMeshComponent0)
+[2016.05.14-09.29.45:530][400]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
+[2016.05.14-09.29.45:530][400]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
+[2016.05.14-09.29.45:532][400]LogWorld: Bringing World /Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1 up for play (max tick rate 60) at 2016.05.14-18.59.45
+[2016.05.14-09.29.45:533][400]LogWorld: Bringing up level for play took: 0.031701
+[2016.05.14-09.29.45:534][400]PIE: Info Play in editor start time for /Game/World1/UEDPIE_0_EffulgentW1 -0.817
+[2016.05.14-09.29.45:534][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
+[2016.05.14-09.29.47:310][505]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
+[2016.05.14-09.29.47:410][505]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
+[2016.05.14-09.29.53:169][843]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.05.14-09.30.56:953][746]LogEditorViewport: Clicking Background
+[2016.05.14-09.32.10:482][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.14-09.32.11:583][ 56]LogSavePackage: Save=957.57ms
+[2016.05.14-09.32.11:583][ 56]LogSavePackage: Moving '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/EffulgentW115E5EF5740CDD64A0F0739B79E9989D1.tmp' to '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/World1/EffulgentW1.umap'
+[2016.05.14-09.32.11:587][ 56]LogSavePackage: Total save time: 975.67ms
+[2016.05.14-09.32.11:587][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/World1/EffulgentW1.umap
+[2016.05.14-09.32.13:831][ 56]LogFileHelpers: Saving map 'EffulgentW1' took 3.298
+[2016.05.14-09.36.34:937][959]LogEditorViewport: Clicking Background
+[2016.05.14-09.36.35:124][970]LogEditorViewport: Clicking Background
+[2016.05.14-09.36.35:391][986]LogEditorViewport: Clicking Background
+[2016.05.14-09.36.35:447][989]LogEditorViewport: Clicking Background
+[2016.05.14-09.42.11:054][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.14-09.42.14:462][826]LogSavePackage: Save=3364.48ms
+[2016.05.14-09.42.14:462][826]LogSavePackage: Moving '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/EffulgentW1_Auto1876D6056460D1E51BE1B87B4526113CF.tmp' to '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/Autosaves/Game/World1/EffulgentW1_Auto1.umap'
+[2016.05.14-09.42.14:466][826]LogSavePackage: Total save time: 3381.30ms
+[2016.05.14-09.42.14:466][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/Autosaves/Game/World1/EffulgentW1_Auto1.umap
+[2016.05.14-09.42.14:467][826]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/World1/EffulgentW1' took 3.414
+[2016.05.14-09.42.14:467][826]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.414
+[2016.05.14-10.01.49:102][732]LogRenderer: Reallocating scene render targets to support 1260x900 (Frame:7350).
+[2016.05.14-10.06.15:411][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonIdle.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPersonIdle.uasset
+[2016.05.14-10.06.15:414][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonJump_Loop.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset
+[2016.05.14-10.06.15:415][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonJump_Start.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset
+[2016.05.14-10.06.15:425][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonRun.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPersonRun.uasset
+[2016.05.14-10.06.15:435][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonWalk.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPersonWalk.uasset
+[2016.05.14-10.06.15:450][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_AnimBP.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2016.05.14-10.06.15:453][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_IdleRun_2D.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset
+[2016.05.14-10.06.15:455][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_Jump.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPerson_Jump.uasset
+[2016.05.14-10.06.15:544][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/SK_Mannequin.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset
+[2016.05.14-10.06.15:551][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset
+[2016.05.14-10.06.15:563][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/UE4_Mannequin_Skeleton.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2016.05.14-10.06.15:766][521]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 D:/Program Files/Epic Games/4.11/FeaturePacks/TP_ThirdPerson.upack)
+[2016.05.14-10.06.15:960][521]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.05.14-10.06.15:970][521]LogPackFactory: Copied "../../../Templates/TP_ThirdPerson/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset" to "../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset"
+[2016.05.14-10.06.16:094][521]LogPackFactory: Copied "../../../Templates/TP_ThirdPerson/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" to "../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap"
+[2016.05.14-10.06.16:139][521]Running D:/Program Files/Epic Games/4.11/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Effulgent.uproject" -game -progress -2015
+[2016.05.14-10.06.16:445][521]Visual C++ 2015 toolchain does not appear to be correctly installed. Please verify that "Common Tools for Visual C++ 2015" was selected when installing Visual Studio 2015.
+[2016.05.14-10.06.16:445][521]Discovering modules, targets and source code for game...
+[2016.05.14-10.06.23:468][521]UnrealBuildTool Exception: ERROR: Visual Studio 2012, 2013 or 2015 must be installed in order to build this target.
+[2016.05.14-10.06.43:500][521]LogHotReload: Recompiling module Effulgent...
+[2016.05.14-10.06.43:532][521]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.05.14-10.06.43:552][521]Recompiling Effulgent...
+[2016.05.14-10.06.43:553][521]Launching UnrealBuildTool... [D:/Program Files/Epic Games/4.11/Engine/Binaries/DotNET/UnrealBuildTool.exe Effulgent -Module Effulgent Win64 Development -editorrecompile -canskiplink "D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Effulgent.uproject"  -2015]
+[2016.05.14-10.06.53:078][521]Performing full C++ include scan (hot reloading a new target)
+Creating makefile for hot reloading Effulgent (no existing makefile)
+Compiling game modules for hot reload
+Parsing headers for EffulgentEditor
+  Running UnrealHeaderTool "D:\Caroline\Documents\GitHub\Game-Design\Effulgent\Effulgent.uproject" "D:\Caroline\Documents\GitHub\Game-Design\Effulgent\Intermediate\Build\Win64\EffulgentEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for EffulgentEditor in 4.2517644 seconds
+ERROR: Visual Studio 2012, 2013 or 2015 must be installed in order to build this target.
+
+[2016.05.14-10.06.53:078][521]CompilerResultsLog: New page: Compilation - 15 May 2016 5:06:53 am
+[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info Creating makefile for hot reloading Effulgent (no existing makefile)
+[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info Parsing headers for EffulgentEditor
+[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Caroline\Documents\GitHub\Game-Design\Effulgent\Effulgent.uproject" "D:\Caroline\Documents\GitHub\Game-Design\Effulgent\Intermediate\Build\Win64\EffulgentEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info Reflection code generated for EffulgentEditor in 4.2517644 seconds
+[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info ERROR: Visual Studio 2012, 2013 or 2015 must be installed in order to build this target.
+[2016.05.14-10.06.53:091][521]LogMainFrame: MainFrame: Module compiling took 9.559 seconds
+[2016.05.14-10.06.54:341][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.05.14-10.06.54:342][521]LoadErrors:Error: Error /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Script/Effulgent
+[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.05.14-10.06.54:343][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:343][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.05.14-10.06.54:343][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:343][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:344][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:351][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:351][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:351][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:352][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:353][521]LoadErrors: Info Failed to load /Script/Effulgent.TP_ThirdPersonCharacter Referenced by ThirdPersonCharacter
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:353][521]LoadErrors: Info Failed to load /Script/Effulgent.TP_ThirdPersonCharacter Referenced by K2Node_Event_134
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:353][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:354][521]LoadErrors: Info Failed to load /Script/Effulgent.TP_ThirdPersonCharacter Referenced by K2Node_Event_135
+[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:354][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:354][521]LoadErrors: Info Failed to load /Script/Effulgent.TP_ThirdPersonCharacter Referenced by K2Node_Event_136
+[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:354][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
+[2016.05.14-10.06.54:354][521]LoadErrors: Info Failed to load /Script/Effulgent.TP_ThirdPersonCharacter Referenced by PackageMetaData
+[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
+[2016.05.14-10.06.54:354][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:473][521]LogSavePackage: Save=3.36ms
+[2016.05.14-10.06.54:473][521]LogSavePackage: Moving '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/ThirdPersonCharacter95343669460A40E366E9D1AF2D0D23C2.tmp' to '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.05.14-10.06.54:477][521]LogSavePackage: Total save time: 9.10ms
+[2016.05.14-10.06.54:477][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2016.05.14-10.06.54:484][521]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/ThirdPersonOverview'
+[2016.05.14-10.06.54:485][521]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/ThirdPersonOverview'
+[2016.05.14-10.06.54:485][521]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/ThirdPersonCPP/ThirdPersonOverview.ThirdPersonOverview'
+[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
+[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'FollowCamera': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
+[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
+[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
+[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_1': BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SCS_Node_1': SimpleConstructionScript /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:SimpleConstructionScript_1
+[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharacterMesh0': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
+[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CameraBoom': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
+[2016.05.14-10.06.57:523][703]Cmd: TRANSACTION UNDO
+[2016.05.14-10.06.57:523][703]LogEditorTransaction: Undo Edit Block Input
+[2016.05.14-10.07.20:587][ 57]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.14-10.07.21:163][ 57]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.05.14-10.07.21:242][ 57]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.05.14-10.07.21:419][ 57]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.05.14-10.07.21:522][ 57]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.05.14-10.07.21:549][ 57]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.05.14-10.07.21:576][ 57]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.05.14-10.07.21:605][ 57]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.05.14-10.07.21:620][ 57]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.05.14-10.07.21:699][ 57]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.05.14-10.07.21:752][ 57]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.05.14-10.07.21:767][ 57]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.05.14-10.07.21:780][ 57]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.05.14-10.07.21:791][ 57]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2016.05.14-10.07.21:800][ 57]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.05.14-10.07.21:885][ 57]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.05.14-10.07.21:934][ 57]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.05.14-10.07.21:952][ 57]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.05.14-10.07.21:965][ 57]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.05.14-10.07.21:979][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2016.05.14-10.07.21:983][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2016.05.14-10.07.21:984][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2016.05.14-10.07.22:003][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2016.05.14-10.07.22:022][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2016.05.14-10.07.22:027][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2016.05.14-10.07.22:148][ 57]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.14-10.07.22:217][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.14-10.07.23:597][ 57]LoadErrors:Error: Error /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Failed import for ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
+[2016.05.14-10.07.23:597][ 57]LoadErrors:Error: Error /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Failed import for ArrowComponent 
