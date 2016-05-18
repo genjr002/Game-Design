@@ -2,12 +2,5 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.11",
 	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "Effulgent",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
+	"Description": ""
 }

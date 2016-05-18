@@ -1,9 +1,9 @@
-﻿Log file open, 05/14/16 18:55:20
+﻿Log file open, 05/18/16 19:05:19
 LogInit:Display: Running engine for game: Effulgent
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-2109349637) SRandInit(-2109349637).
+LogInit:Display: RandInit(-131095512) SRandInit(-131095512).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.066345
+LogStats: Stats thread started at 0.079049
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
@@ -29,532 +29,458 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.05.14-09.25.21:088][  0]LogInit: Selected Device Profile: [Windows]
-[2016.05.14-09.25.21:088][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.05.14-09.25.21:095][  0]LogInit: Computer: SOVEREIGN
-[2016.05.14-09.25.21:095][  0]LogInit: User: Caroline
-[2016.05.14-09.25.21:095][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.05.14-09.25.21:095][  0]LogInit: High frequency timer resolution =2.338344 MHz
-[2016.05.14-09.25.21:095][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.05.14-09.25.21:095][  0]LogMemory: Platform Memory Stats for Windows
-[2016.05.14-09.25.21:095][  0]LogMemory: Process Physical Memory: 314.25 MB used, 314.25 MB peak
-[2016.05.14-09.25.21:095][  0]LogMemory: Process Virtual Memory: 315.06 MB used, 315.06 MB peak
-[2016.05.14-09.25.21:095][  0]LogMemory: Physical Memory: 5269.68 MB used, 16302.99 MB total
-[2016.05.14-09.25.21:095][  0]LogMemory: Virtual Memory: 638.78 MB used, 134217728.00 MB total
-[2016.05.14-09.25.21:131][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
-[2016.05.14-09.25.21:507][  0]LogD3D11RHI: D3D11 adapters:
-[2016.05.14-09.25.21:530][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 765M' (Feature Level 11_0)
-[2016.05.14-09.25.21:530][  0]LogD3D11RHI:       1989MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 1 output[s]
-[2016.05.14-09.25.21:536][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2016.05.14-09.25.21:536][  0]LogD3D11RHI:       112MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
-[2016.05.14-09.25.21:537][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.05.14-09.25.21:537][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
-[2016.05.14-09.25.21:537][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.05.14-09.25.21:542][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.05.14-09.25.21:542][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 765M
-[2016.05.14-09.25.21:542][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
-[2016.05.14-09.25.21:542][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.05.14-09.25.21:542][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.05.14-09.25.21:555][  0]LogD3D11RHI: Async texture creation enabled
-[2016.05.14-09.25.21:570][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Intermediate/Shaders/WorkingDirectory/6972/).
-[2016.05.14-09.25.21:571][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Caroline/AppData/Local/Temp/UnrealShaderWorkingDir/AB8E79E44FA0F0D9415244A128FFA581/'.
-[2016.05.14-09.25.21:571][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.05.14-09.25.22:557][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.05.14-09.25.22:560][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.05.14-09.25.22:564][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.05.14-09.25.22:568][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.05.14-09.25.22:571][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.05.14-09.25.22:574][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.05.14-09.25.22:576][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.05.14-09.25.22:579][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.05.14-09.25.22:582][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.05.14-09.25.22:585][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.05.14-09.25.22:587][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.05.14-09.25.22:594][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.05.14-09.25.22:594][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.05.14-09.25.22:595][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.05.14-09.25.22:611][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.05.14-09.25.22:614][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.05.14-09.25.22:616][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.05.14-09.25.22:619][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.05.14-09.25.22:622][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.05.14-09.25.22:622][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.05.14-09.25.22:679][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.05.14-09.25.22:731][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.05.14-09.25.22:731][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.05.14-09.25.22:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.05.14-09.25.22:731][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.05.14-09.25.22:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.05.14-09.25.22:731][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.05.14-09.25.22:748][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.05.14-09.25.22:760][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Caroline/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.05.14-09.25.22:938][  0]LogInit: Selected Device Profile: [Windows]
-[2016.05.14-09.25.22:938][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.05.14-09.25.22:972][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.05.14-09.25.23:090][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.05.14-09.25.23:090][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.05.14-09.25.23:090][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.05.14-09.25.23:302][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.05.14-09.25.23:302][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.05.14-09.25.23:302][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.05.14-09.25.23:305][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.05.14-09.25.23:373][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.05.14-09.25.23:373][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.05.14-09.25.23:483][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.05.14-09.25.23:483][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.05.14-09.25.23:483][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.05.14-09.25.23:483][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.05.14-09.25.23:483][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.05.14-09.25.23:483][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.05.14-09.25.24:076][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.05.14-09.25.24:175][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
-[2016.05.14-09.25.24:310][  0]SourceControl: Info Source control is disabled
-[2016.05.14-09.25.24:311][  0]SourceControl: Info Source control is disabled
-[2016.05.14-09.25.24:321][  0]SourceControl: Info Source control is disabled
-[2016.05.14-09.25.24:328][  0]SourceControl: Info Source control is disabled
-[2016.05.14-09.25.24:433][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.05.14-09.25.24:498][  0]LogEngine: Initializing Engine...
-[2016.05.14-09.25.24:627][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.05.14-09.25.24:631][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.14-09.25.24:641][  0]LogInit: FAudioDevice initialized.
-[2016.05.14-09.25.24:664][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.05.14-09.25.24:668][  0]LogInit: Texture streaming: Enabled
-[2016.05.14-09.25.24:684][  0]LogInit: Transaction tracking system initialized
-[2016.05.14-09.25.24:697][  0]BlueprintLog: New page: Editor Load
-[2016.05.14-09.25.24:748][  0]LocalizationService: Info Localization service is disabled
-[2016.05.14-09.25.24:939][  0]LogConsoleResponse:Display: 
-[2016.05.14-09.25.25:031][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.05.14-09.25.25:031][  0]LogCook:Display: Mobile HDR setting 1
-[2016.05.14-09.25.25:031][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.05.14-09.25.25:075][  0]LogFileCache: Scanning file cache for directory 'D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Content/' took 0.02s
-[2016.05.14-09.25.25:075][  0]SourceControl: Info Source control is disabled
-[2016.05.14-09.25.25:075][  0]Cmd: MAP LOAD FILE="../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.05.14-09.25.25:076][  0]LightingResults: New page: Lighting Build
-[2016.05.14-09.25.25:077][  0]MapCheck: New page: Map Check
-[2016.05.14-09.25.25:077][  0]LightingResults: New page: Lighting Build
-[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
-[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2016.05.14-09.25.25:244][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Air_Mat
-[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
-[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2016.05.14-09.25.25:244][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Earth_Mat
-[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
-[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2016.05.14-09.25.25:244][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Fire_Mat
-[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
-[2016.05.14-09.25.25:244][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2016.05.14-09.25.25:244][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Water_Mat
-[2016.05.14-09.25.25:318][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
-[2016.05.14-09.25.25:318][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2016.05.14-09.25.25:318][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Air_Mat
-[2016.05.14-09.25.25:318][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
-[2016.05.14-09.25.25:318][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2016.05.14-09.25.25:318][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Earth_Mat
-[2016.05.14-09.25.25:319][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
-[2016.05.14-09.25.25:319][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2016.05.14-09.25.25:319][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Fire_Mat
-[2016.05.14-09.25.25:319][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
-[2016.05.14-09.25.25:319][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
-[2016.05.14-09.25.25:319][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Textures/Water_Mat
-[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
-[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading NULL.
-[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
-[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading NULL.
-[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
-[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading NULL.
-[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
-[2016.05.14-09.25.25:324][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading NULL.
-[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
-[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading NULL.
-[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
-[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading NULL.
-[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
-[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading NULL.
-[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
-[2016.05.14-09.25.25:325][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading NULL.
-[2016.05.14-09.25.25:378][  0]LogLinker:Warning: Can't find file '/Game/Textures/Air_Mat'
-[2016.05.14-09.25.25:378][  0]LoadErrors: Info Failed to load /Game/Textures/Air_Mat.Air_Mat Referenced by Sphere
-[2016.05.14-09.25.25:379][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Air_Mat' while loading NULL.
-[2016.05.14-09.25.25:379][  0]LoadErrors: Info Failed to load /Game/Textures/Air_Mat.Air_Mat Referenced by Sphere
-[2016.05.14-09.25.25:380][  0]LogLinker:Warning: Can't find file '/Game/Textures/Earth_Mat'
-[2016.05.14-09.25.25:380][  0]LoadErrors: Info Failed to load /Game/Textures/Earth_Mat.Earth_Mat Referenced by Sphere
-[2016.05.14-09.25.25:380][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Earth_Mat' while loading NULL.
-[2016.05.14-09.25.25:380][  0]LoadErrors: Info Failed to load /Game/Textures/Earth_Mat.Earth_Mat Referenced by Sphere
-[2016.05.14-09.25.25:380][  0]LogLinker:Warning: Can't find file '/Game/Textures/Fire_Mat'
-[2016.05.14-09.25.25:380][  0]LoadErrors: Info Failed to load /Game/Textures/Fire_Mat.Fire_Mat Referenced by Sphere
-[2016.05.14-09.25.25:380][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Fire_Mat' while loading NULL.
-[2016.05.14-09.25.25:380][  0]LoadErrors: Info Failed to load /Game/Textures/Fire_Mat.Fire_Mat Referenced by Sphere
-[2016.05.14-09.25.25:393][  0]LogLinker:Warning: Can't find file '/Game/Textures/Water_Mat'
-[2016.05.14-09.25.25:393][  0]LoadErrors: Info Failed to load /Game/Textures/Water_Mat.Water_Mat Referenced by Sphere
-[2016.05.14-09.25.25:393][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/Water_Mat' while loading NULL.
-[2016.05.14-09.25.25:393][  0]LoadErrors: Info Failed to load /Game/Textures/Water_Mat.Water_Mat Referenced by Sphere
-[2016.05.14-09.25.25:577][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.05.14-09.25.25:580][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ground.StaticMeshComponent0)
-[2016.05.14-09.25.25:583][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder_145.StaticMeshComponent0)
-[2016.05.14-09.25.25:583][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder2.StaticMeshComponent0)
-[2016.05.14-09.25.25:585][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
-[2016.05.14-09.25.25:594][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_21.StaticMeshComponent0)
-[2016.05.14-09.25.25:594][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube2.StaticMeshComponent0)
-[2016.05.14-09.25.25:595][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube3_94.StaticMeshComponent0)
-[2016.05.14-09.25.25:596][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube4.StaticMeshComponent0)
-[2016.05.14-09.25.25:597][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube13_47.StaticMeshComponent0)
-[2016.05.14-09.25.25:597][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
-[2016.05.14-09.25.25:597][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder5.StaticMeshComponent0)
-[2016.05.14-09.25.25:600][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube22_175.StaticMeshComponent0)
-[2016.05.14-09.25.25:612][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.05.14-09.25.25:613][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.05.14-09.25.25:674][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.705ms to complete.
-[2016.05.14-09.25.25:674][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.599
-[2016.05.14-09.25.25:789][  0]LogCollectionManager: Loaded 0 collections in 0.000986 seconds
-[2016.05.14-09.25.25:828][  0]LogFileCache: Scanning file cache for directory 'D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/Collections/' took 0.01s
-[2016.05.14-09.25.25:828][  0]LogFileCache: Scanning file cache for directory 'D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Developers/Caroline/Collections/' took 0.01s
-[2016.05.14-09.25.25:828][  0]LogFileCache: Scanning file cache for directory 'D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Collections/' took 0.01s
-[2016.05.14-09.25.25:828][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2016.05.14-09.25.25:835][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 1979 classes and 343 folders.
-[2016.05.14-09.25.25:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.05.14-09.25.25:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.05.14-09.25.25:838][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
-[2016.05.14-09.25.25:841][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.05.14-09.25.25:845][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.05.14-09.25.27:487][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2016.05.14-09.25.27:559][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.05.14-09.25.27:760][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.05.14-09.25.27:873][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.05.14-09.25.28:012][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.05.14-09.25.28:012][  0]LogLoad: Full Startup: 7.62 seconds (BP compile: 0.04 seconds)
-[2016.05.14-09.25.28:012][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
-[2016.05.14-09.25.28:474][  0]LogOcInput: OculusInput pre-init called
-[2016.05.14-09.25.28:848][  0]LogContentStreaming: Texture pool size now 200 MB
-[2016.05.14-09.25.29:245][  0]LogRenderer: Reallocating scene render targets to support 1064x424 (Frame:2).
-[2016.05.14-09.25.29:736][  2]LogAssetRegistry: Asset discovery search completed in 5.5820 seconds
-[2016.05.14-09.25.29:848][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2016.05.14-09.25.29:848][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.112593 seconds (updated 0 objects)
-[2016.05.14-09.25.44:968][589]LogRenderer: Reallocating scene render targets to support 1260x576 (Frame:19).
-[2016.05.14-09.25.49:695][869]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.05.14-09.25.49:695][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.14-09.25.49:719][869]PIE: New page: PIE session: ThirdPersonExampleMap (15 May 2016 4:25:49 am)
-[2016.05.14-09.25.49:719][869]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2016.05.14-09.25.49:764][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045476s)
-[2016.05.14-09.25.49:765][869]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.05.14-09.25.49:765][869]LogPlayLevel: PIE: World Init took: (0.000989s)
-[2016.05.14-09.25.49:766][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.046930s)
-[2016.05.14-09.25.49:784][869]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.14-09.25.49:793][869]LogInit: FAudioDevice initialized.
-[2016.05.14-09.25.49:915][869]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2016.05.14-09.25.49:918][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ground.StaticMeshComponent0)
-[2016.05.14-09.25.49:921][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder_145.StaticMeshComponent0)
-[2016.05.14-09.25.49:921][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder2.StaticMeshComponent0)
-[2016.05.14-09.25.49:924][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
-[2016.05.14-09.25.49:937][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_21.StaticMeshComponent0)
-[2016.05.14-09.25.49:937][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube2.StaticMeshComponent0)
-[2016.05.14-09.25.49:939][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube3_94.StaticMeshComponent0)
-[2016.05.14-09.25.49:939][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube4.StaticMeshComponent0)
-[2016.05.14-09.25.49:940][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube13_47.StaticMeshComponent0)
-[2016.05.14-09.25.49:940][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
-[2016.05.14-09.25.49:941][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder5.StaticMeshComponent0)
-[2016.05.14-09.25.49:944][869]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube22_175.StaticMeshComponent0)
-[2016.05.14-09.25.49:948][869]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.05.14-18.55.49
-[2016.05.14-09.25.49:949][869]LogWorld: Bringing up level for play took: 0.032262
-[2016.05.14-09.25.49:968][869]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
-[2016.05.14-09.25.49:970][869]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.381
-[2016.05.14-09.25.49:970][869]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.05.14-09.25.54:712][143]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.05.14-09.25.54:792][143]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.05.14-09.26.03:536][659]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (PlayerCharacter)
-[2016.05.14-09.26.25:818][876]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 108 classes and 0 folders.
-[2016.05.14-09.26.40:512][645]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
-[2016.05.14-09.27.13:953][602]LogEditorViewport: Clicking Background
-[2016.05.14-09.27.48:407][138]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
-[2016.05.14-09.28.04:048][  8]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
-[2016.05.14-09.28.10:776][352]LogEditorViewport: Clicking Background
-[2016.05.14-09.28.26:390][244]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (PlayerCharacter)
-[2016.05.14-09.29.00:680][207]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.05.14-09.29.02:182][207]LogSavePackage: Save=966.58ms
-[2016.05.14-09.29.02:182][207]LogSavePackage: Moving '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/ThirdPersonExampleMapFA83D019476B5B1400A690969643BAE9.tmp' to '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2016.05.14-09.29.02:187][207]LogSavePackage: Total save time: 992.21ms
-[2016.05.14-09.29.02:187][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2016.05.14-09.29.02:259][207]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.147
-[2016.05.14-09.29.11:921][556]LogAIModule: Creating AISystem for world EffulgentW1
-[2016.05.14-09.29.11:923][556]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.P_Torch_2.ParticleSystemComponent0
-[2016.05.14-09.29.11:923][556]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.P_Torch2_5.ParticleSystemComponent0
-[2016.05.14-09.29.11:923][556]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.P_Torch3_8.ParticleSystemComponent0
-[2016.05.14-09.29.11:923][556]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.P_Torch4_11.ParticleSystemComponent0
-[2016.05.14-09.29.11:927][556]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.P_Torch5_2.ParticleSystemComponent0
-[2016.05.14-09.29.12:006][556]Cmd: MAP LOAD FILE="../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/World1/EffulgentW1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.05.14-09.29.12:006][556]LightingResults: New page: Lighting Build
-[2016.05.14-09.29.12:025][556]LoadErrors: New page: Loading map: EffulgentW1.umap
-[2016.05.14-09.29.12:058][556]MapCheck: New page: Map Check
-[2016.05.14-09.29.12:058][556]LightingResults: New page: Lighting Build
-[2016.05.14-09.29.12:082][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Ground.StaticMeshComponent0)
-[2016.05.14-09.29.12:082][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cylinder_145.StaticMeshComponent0)
-[2016.05.14-09.29.12:083][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cylinder2.StaticMeshComponent0)
-[2016.05.14-09.29.12:084][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
-[2016.05.14-09.29.12:087][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube_21.StaticMeshComponent0)
-[2016.05.14-09.29.12:087][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube2.StaticMeshComponent0)
-[2016.05.14-09.29.12:088][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube3_94.StaticMeshComponent0)
-[2016.05.14-09.29.12:088][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube4.StaticMeshComponent0)
-[2016.05.14-09.29.12:088][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube13_47.StaticMeshComponent0)
-[2016.05.14-09.29.12:089][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
-[2016.05.14-09.29.12:089][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cylinder5.StaticMeshComponent0)
-[2016.05.14-09.29.12:090][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.Cube22_175.StaticMeshComponent0)
-[2016.05.14-09.29.12:090][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.BurtReynoldsBase.StaticMeshComponent0)
-[2016.05.14-09.29.12:090][556]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
-[2016.05.14-09.29.12:090][556]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
-[2016.05.14-09.29.12:099][556]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.05.14-09.29.12:127][556]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.05.14-09.29.12:185][556]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.957ms to complete.
-[2016.05.14-09.29.12:186][556]LogFileHelpers: Loading map 'EffulgentW1' took 0.233
-[2016.05.14-09.29.24:293][263]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.05.14-09.29.24:297][263]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Torch_2.ParticleSystemComponent0
-[2016.05.14-09.29.24:297][263]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Torch2_5.ParticleSystemComponent0
-[2016.05.14-09.29.24:297][263]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Torch3_8.ParticleSystemComponent0
-[2016.05.14-09.29.24:297][263]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Torch4_11.ParticleSystemComponent0
-[2016.05.14-09.29.24:300][263]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/CrumblingRuins/Torch/P_Torch.P_Torch Component=/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.P_Torch5_2.ParticleSystemComponent0
-[2016.05.14-09.29.24:330][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.05.14-09.29.30:959][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
-[2016.05.14-09.29.30:959][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.14-09.29.30:959][556]PIE: New page: PIE session: EffulgentW1 (15 May 2016 4:29:30 am)
-[2016.05.14-09.29.30:959][556]LogPlayLevel: Creating play world package: /Game/World1/UEDPIE_0_EffulgentW1
-[2016.05.14-09.29.31:007][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048204s)
-[2016.05.14-09.29.31:008][556]LogAIModule: Creating AISystem for world EffulgentW1
-[2016.05.14-09.29.31:008][556]LogPlayLevel: PIE: World Init took: (0.000707s)
-[2016.05.14-09.29.31:008][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/World1/EffulgentW1.EffulgentW1 to /Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1 (0.049240s)
-[2016.05.14-09.29.31:025][556]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.14-09.29.31:034][556]LogInit: FAudioDevice initialized.
-[2016.05.14-09.29.31:061][556]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2016.05.14-09.29.31:063][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Ground.StaticMeshComponent0)
-[2016.05.14-09.29.31:066][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder_145.StaticMeshComponent0)
-[2016.05.14-09.29.31:066][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder2.StaticMeshComponent0)
-[2016.05.14-09.29.31:069][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
-[2016.05.14-09.29.31:082][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube_21.StaticMeshComponent0)
-[2016.05.14-09.29.31:082][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube2.StaticMeshComponent0)
-[2016.05.14-09.29.31:083][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube3_94.StaticMeshComponent0)
-[2016.05.14-09.29.31:083][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube4.StaticMeshComponent0)
-[2016.05.14-09.29.31:085][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube13_47.StaticMeshComponent0)
-[2016.05.14-09.29.31:085][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
-[2016.05.14-09.29.31:085][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder5.StaticMeshComponent0)
-[2016.05.14-09.29.31:089][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube22_175.StaticMeshComponent0)
-[2016.05.14-09.29.31:091][556]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.BurtReynoldsBase.StaticMeshComponent0)
-[2016.05.14-09.29.31:091][556]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
-[2016.05.14-09.29.31:091][556]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
-[2016.05.14-09.29.31:093][556]LogWorld: Bringing World /Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1 up for play (max tick rate 60) at 2016.05.14-18.59.31
-[2016.05.14-09.29.31:094][556]LogWorld: Bringing up level for play took: 0.032333
-[2016.05.14-09.29.31:096][556]PIE: Info Play in editor start time for /Game/World1/UEDPIE_0_EffulgentW1 0.745
-[2016.05.14-09.29.31:096][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
-[2016.05.14-09.29.35:484][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
-[2016.05.14-09.29.35:519][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
-[2016.05.14-09.29.40:522][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fire_Interactable_1)
-[2016.05.14-09.29.45:387][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
-[2016.05.14-09.29.45:387][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.14-09.29.45:387][400]PIE: New page: PIE session: EffulgentW1 (15 May 2016 4:29:45 am)
-[2016.05.14-09.29.45:387][400]LogPlayLevel: Creating play world package: /Game/World1/UEDPIE_0_EffulgentW1
-[2016.05.14-09.29.45:437][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050426s)
-[2016.05.14-09.29.45:438][400]LogAIModule: Creating AISystem for world EffulgentW1
-[2016.05.14-09.29.45:438][400]LogPlayLevel: PIE: World Init took: (0.000774s)
-[2016.05.14-09.29.45:439][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/World1/EffulgentW1.EffulgentW1 to /Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1 (0.051727s)
-[2016.05.14-09.29.45:463][400]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.14-09.29.45:471][400]LogInit: FAudioDevice initialized.
-[2016.05.14-09.29.45:501][400]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2016.05.14-09.29.45:502][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Ground.StaticMeshComponent0)
-[2016.05.14-09.29.45:505][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder_145.StaticMeshComponent0)
-[2016.05.14-09.29.45:506][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder2.StaticMeshComponent0)
-[2016.05.14-09.29.45:508][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
-[2016.05.14-09.29.45:521][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube_21.StaticMeshComponent0)
-[2016.05.14-09.29.45:521][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube2.StaticMeshComponent0)
-[2016.05.14-09.29.45:523][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube3_94.StaticMeshComponent0)
-[2016.05.14-09.29.45:523][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube4.StaticMeshComponent0)
-[2016.05.14-09.29.45:524][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube13_47.StaticMeshComponent0)
-[2016.05.14-09.29.45:524][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
-[2016.05.14-09.29.45:524][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cylinder5.StaticMeshComponent0)
-[2016.05.14-09.29.45:528][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.Cube22_175.StaticMeshComponent0)
-[2016.05.14-09.29.45:530][400]LogPrimitiveComponent: Zero scaling not supported (/Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1:PersistentLevel.BurtReynoldsBase.StaticMeshComponent0)
-[2016.05.14-09.29.45:530][400]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
-[2016.05.14-09.29.45:530][400]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (3: /Game/CrumblingRuins/SM_WallChunk_03.SM_WallChunk_03:BodySetup_131)
-[2016.05.14-09.29.45:532][400]LogWorld: Bringing World /Game/World1/UEDPIE_0_EffulgentW1.EffulgentW1 up for play (max tick rate 60) at 2016.05.14-18.59.45
-[2016.05.14-09.29.45:533][400]LogWorld: Bringing up level for play took: 0.031701
-[2016.05.14-09.29.45:534][400]PIE: Info Play in editor start time for /Game/World1/UEDPIE_0_EffulgentW1 -0.817
-[2016.05.14-09.29.45:534][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
-[2016.05.14-09.29.47:310][505]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
-[2016.05.14-09.29.47:410][505]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel' has LevelScriptBlueprint '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1' with GeneratedClass '/Game/World1/EffulgentW1.EffulgentW1_C' with ClassGeneratedBy '/Game/World1/EffulgentW1.EffulgentW1:PersistentLevel.EffulgentW1'
-[2016.05.14-09.29.53:169][843]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
-[2016.05.14-09.30.56:953][746]LogEditorViewport: Clicking Background
-[2016.05.14-09.32.10:482][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.05.14-09.32.11:583][ 56]LogSavePackage: Save=957.57ms
-[2016.05.14-09.32.11:583][ 56]LogSavePackage: Moving '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/EffulgentW115E5EF5740CDD64A0F0739B79E9989D1.tmp' to '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/World1/EffulgentW1.umap'
-[2016.05.14-09.32.11:587][ 56]LogSavePackage: Total save time: 975.67ms
-[2016.05.14-09.32.11:587][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/World1/EffulgentW1.umap
-[2016.05.14-09.32.13:831][ 56]LogFileHelpers: Saving map 'EffulgentW1' took 3.298
-[2016.05.14-09.36.34:937][959]LogEditorViewport: Clicking Background
-[2016.05.14-09.36.35:124][970]LogEditorViewport: Clicking Background
-[2016.05.14-09.36.35:391][986]LogEditorViewport: Clicking Background
-[2016.05.14-09.36.35:447][989]LogEditorViewport: Clicking Background
-[2016.05.14-09.42.11:054][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.05.14-09.42.14:462][826]LogSavePackage: Save=3364.48ms
-[2016.05.14-09.42.14:462][826]LogSavePackage: Moving '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/EffulgentW1_Auto1876D6056460D1E51BE1B87B4526113CF.tmp' to '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/Autosaves/Game/World1/EffulgentW1_Auto1.umap'
-[2016.05.14-09.42.14:466][826]LogSavePackage: Total save time: 3381.30ms
-[2016.05.14-09.42.14:466][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/Autosaves/Game/World1/EffulgentW1_Auto1.umap
-[2016.05.14-09.42.14:467][826]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/World1/EffulgentW1' took 3.414
-[2016.05.14-09.42.14:467][826]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.414
-[2016.05.14-10.01.49:102][732]LogRenderer: Reallocating scene render targets to support 1260x900 (Frame:7350).
-[2016.05.14-10.06.15:411][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonIdle.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPersonIdle.uasset
-[2016.05.14-10.06.15:414][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonJump_Loop.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset
-[2016.05.14-10.06.15:415][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonJump_Start.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset
-[2016.05.14-10.06.15:425][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonRun.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPersonRun.uasset
-[2016.05.14-10.06.15:435][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonWalk.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPersonWalk.uasset
-[2016.05.14-10.06.15:450][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_AnimBP.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
-[2016.05.14-10.06.15:453][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_IdleRun_2D.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset
-[2016.05.14-10.06.15:455][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_Jump.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Animations/ThirdPerson_Jump.uasset
-[2016.05.14-10.06.15:544][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/SK_Mannequin.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset
-[2016.05.14-10.06.15:551][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset
-[2016.05.14-10.06.15:563][521]LogFeaturePack:Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/UE4_Mannequin_Skeleton.uasset to ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
-[2016.05.14-10.06.15:766][521]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 D:/Program Files/Epic Games/4.11/FeaturePacks/TP_ThirdPerson.upack)
-[2016.05.14-10.06.15:960][521]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2016.05.14-10.06.15:970][521]LogPackFactory: Copied "../../../Templates/TP_ThirdPerson/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset" to "../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset"
-[2016.05.14-10.06.16:094][521]LogPackFactory: Copied "../../../Templates/TP_ThirdPerson/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" to "../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap"
-[2016.05.14-10.06.16:139][521]Running D:/Program Files/Epic Games/4.11/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Effulgent.uproject" -game -progress -2015
-[2016.05.14-10.06.16:445][521]Visual C++ 2015 toolchain does not appear to be correctly installed. Please verify that "Common Tools for Visual C++ 2015" was selected when installing Visual Studio 2015.
-[2016.05.14-10.06.16:445][521]Discovering modules, targets and source code for game...
-[2016.05.14-10.06.23:468][521]UnrealBuildTool Exception: ERROR: Visual Studio 2012, 2013 or 2015 must be installed in order to build this target.
-[2016.05.14-10.06.43:500][521]LogHotReload: Recompiling module Effulgent...
-[2016.05.14-10.06.43:532][521]LogVSAccessor:Warning: Couldn't access Visual Studio
-[2016.05.14-10.06.43:552][521]Recompiling Effulgent...
-[2016.05.14-10.06.43:553][521]Launching UnrealBuildTool... [D:/Program Files/Epic Games/4.11/Engine/Binaries/DotNET/UnrealBuildTool.exe Effulgent -Module Effulgent Win64 Development -editorrecompile -canskiplink "D:/Caroline/Documents/GitHub/Game-Design/Effulgent/Effulgent.uproject"  -2015]
-[2016.05.14-10.06.53:078][521]Performing full C++ include scan (hot reloading a new target)
-Creating makefile for hot reloading Effulgent (no existing makefile)
-Compiling game modules for hot reload
-Parsing headers for EffulgentEditor
-  Running UnrealHeaderTool "D:\Caroline\Documents\GitHub\Game-Design\Effulgent\Effulgent.uproject" "D:\Caroline\Documents\GitHub\Game-Design\Effulgent\Intermediate\Build\Win64\EffulgentEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-Reflection code generated for EffulgentEditor in 4.2517644 seconds
-ERROR: Visual Studio 2012, 2013 or 2015 must be installed in order to build this target.
-
-[2016.05.14-10.06.53:078][521]CompilerResultsLog: New page: Compilation - 15 May 2016 5:06:53 am
-[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
-[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info Creating makefile for hot reloading Effulgent (no existing makefile)
-[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info Compiling game modules for hot reload
-[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info Parsing headers for EffulgentEditor
-[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\Caroline\Documents\GitHub\Game-Design\Effulgent\Effulgent.uproject" "D:\Caroline\Documents\GitHub\Game-Design\Effulgent\Intermediate\Build\Win64\EffulgentEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info Reflection code generated for EffulgentEditor in 4.2517644 seconds
-[2016.05.14-10.06.53:078][521]CompilerResultsLog: Info ERROR: Visual Studio 2012, 2013 or 2015 must be installed in order to build this target.
-[2016.05.14-10.06.53:091][521]LogMainFrame: MainFrame: Module compiling took 9.559 seconds
-[2016.05.14-10.06.54:341][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2016.05.14-10.06.54:342][521]LoadErrors:Error: Error /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Script/Effulgent
-[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:342][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2016.05.14-10.06.54:343][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:343][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2016.05.14-10.06.54:343][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:343][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:344][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:344][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:351][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:351][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:351][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:351][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:352][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:353][521]LoadErrors: Info Failed to load /Script/Effulgent.TP_ThirdPersonCharacter Referenced by ThirdPersonCharacter
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:353][521]LoadErrors: Info Failed to load /Script/Effulgent.TP_ThirdPersonCharacter Referenced by K2Node_Event_134
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:353][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:354][521]LoadErrors: Info Failed to load /Script/Effulgent.TP_ThirdPersonCharacter Referenced by K2Node_Event_135
-[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:354][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:354][521]LoadErrors: Info Failed to load /Script/Effulgent.TP_ThirdPersonCharacter Referenced by K2Node_Event_136
-[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:354][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file '/Script/Effulgent'
-[2016.05.14-10.06.54:354][521]LoadErrors: Info Failed to load /Script/Effulgent.TP_ThirdPersonCharacter Referenced by PackageMetaData
-[2016.05.14-10.06.54:354][521]LogLinker:Warning: Can't find file for asset '/Script/Effulgent' while loading NULL.
-[2016.05.14-10.06.54:354][521]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:473][521]LogSavePackage: Save=3.36ms
-[2016.05.14-10.06.54:473][521]LogSavePackage: Moving '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Saved/ThirdPersonCharacter95343669460A40E366E9D1AF2D0D23C2.tmp' to '../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
-[2016.05.14-10.06.54:477][521]LogSavePackage: Total save time: 9.10ms
-[2016.05.14-10.06.54:477][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Caroline/Documents/GitHub/Game-Design/Effulgent/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
-[2016.05.14-10.06.54:484][521]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/ThirdPersonOverview'
-[2016.05.14-10.06.54:485][521]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/ThirdPersonOverview'
-[2016.05.14-10.06.54:485][521]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/ThirdPersonCPP/ThirdPersonOverview.ThirdPersonOverview'
-[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
-[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'FollowCamera': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
-[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
-[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
-[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_1': BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
-[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SCS_Node_1': SimpleConstructionScript /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:SimpleConstructionScript_1
-[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharacterMesh0': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
-[2016.05.14-10.06.54:485][521]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CameraBoom': ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
-[2016.05.14-10.06.57:523][703]Cmd: TRANSACTION UNDO
-[2016.05.14-10.06.57:523][703]LogEditorTransaction: Undo Edit Block Input
-[2016.05.14-10.07.20:587][ 57]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.05.14-10.07.21:163][ 57]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
-[2016.05.14-10.07.21:242][ 57]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2016.05.14-10.07.21:419][ 57]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2016.05.14-10.07.21:522][ 57]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2016.05.14-10.07.21:549][ 57]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2016.05.14-10.07.21:576][ 57]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
-[2016.05.14-10.07.21:605][ 57]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
-[2016.05.14-10.07.21:620][ 57]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2016.05.14-10.07.21:699][ 57]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2016.05.14-10.07.21:752][ 57]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2016.05.14-10.07.21:767][ 57]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
-[2016.05.14-10.07.21:780][ 57]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
-[2016.05.14-10.07.21:791][ 57]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
-[2016.05.14-10.07.21:800][ 57]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
-[2016.05.14-10.07.21:885][ 57]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
-[2016.05.14-10.07.21:934][ 57]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
-[2016.05.14-10.07.21:952][ 57]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
-[2016.05.14-10.07.21:965][ 57]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
-[2016.05.14-10.07.21:979][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
-[2016.05.14-10.07.21:983][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
-[2016.05.14-10.07.21:984][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
-[2016.05.14-10.07.22:003][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
-[2016.05.14-10.07.22:022][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
-[2016.05.14-10.07.22:027][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
-[2016.05.14-10.07.22:148][ 57]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.05.14-10.07.22:217][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.05.14-10.07.23:597][ 57]LoadErrors:Error: Error /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Failed import for ThirdPersonCharacter_C /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
-[2016.05.14-10.07.23:597][ 57]LoadErrors:Error: Error /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Failed import for ArrowComponent 
+[2016.05.18-09.35.20:089][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.18-09.35.20:089][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.18-09.35.20:235][  0]LogInit: Computer: SOVEREIGN
+[2016.05.18-09.35.20:235][  0]LogInit: User: Caroline
+[2016.05.18-09.35.20:235][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.18-09.35.20:235][  0]LogInit: High frequency timer resolution =2.338347 MHz
+[2016.05.18-09.35.20:235][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.18-09.35.20:235][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-09.35.20:235][  0]LogMemory: Process Physical Memory: 313.17 MB used, 313.17 MB peak
+[2016.05.18-09.35.20:235][  0]LogMemory: Process Virtual Memory: 315.03 MB used, 315.03 MB peak
+[2016.05.18-09.35.20:235][  0]LogMemory: Physical Memory: 3563.57 MB used, 16302.99 MB total
+[2016.05.18-09.35.20:235][  0]LogMemory: Virtual Memory: 638.79 MB used, 134217728.00 MB total
+[2016.05.18-09.35.20:682][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.05.18-09.35.21:165][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.18-09.35.21:206][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 765M' (Feature Level 11_0)
+[2016.05.18-09.35.21:207][  0]LogD3D11RHI:       1989MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 1 output[s]
+[2016.05.18-09.35.21:214][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.05.18-09.35.21:214][  0]LogD3D11RHI:       112MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2016.05.18-09.35.21:216][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.18-09.35.21:216][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8151MB of shared system memory, 0 output[s]
+[2016.05.18-09.35.21:216][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.18-09.35.21:222][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.18-09.35.21:222][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 765M
+[2016.05.18-09.35.21:222][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.05.18-09.35.21:222][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.05.18-09.35.21:222][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.18-09.35.21:244][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.18-09.35.21:263][  0]LogShaderCompilers: Guid format shader working directory is 37 characters bigger than the processId version (F:/Effulgent/Intermediate/Shaders/WorkingDirectory/8104/).
+[2016.05.18-09.35.21:263][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Caroline/AppData/Local/Temp/UnrealShaderWorkingDir/54C5C682427804FDA3318588884F4476/'.
+[2016.05.18-09.35.21:263][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.18-09.35.23:104][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.18-09.35.23:109][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.18-09.35.23:117][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.18-09.35.23:122][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.18-09.35.23:126][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.18-09.35.23:130][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.18-09.35.23:134][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.18-09.35.23:137][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.18-09.35.23:141][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.18-09.35.23:145][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.18-09.35.23:149][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.18-09.35.23:157][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.18-09.35.23:157][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.18-09.35.23:182][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.18-09.35.23:201][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.18-09.35.23:204][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.18-09.35.23:208][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.18-09.35.23:211][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.18-09.35.23:215][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.18-09.35.23:215][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.18-09.35.23:306][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.18-09.35.23:604][  0]LogDerivedDataCache: Loaded boot cache 0.30s 46MB C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.18-09.35.23:624][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.18-09.35.23:624][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Effulgent/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.18-09.35.23:624][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.18-09.35.23:624][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Effulgent/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.18-09.35.23:624][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.18-09.35.23:696][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.18-09.35.23:714][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Caroline/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.18-09.35.32:494][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.18-09.35.32:580][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.18-09.35.35:121][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.18-09.35.36:734][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.18-09.35.36:734][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.18-09.35.36:734][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.18-09.35.42:078][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.18-09.35.42:078][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.18-09.35.42:078][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.18-09.35.42:132][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.18-09.35.45:433][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.18-09.35.45:440][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.18-09.35.51:561][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.18-09.35.51:561][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.18-09.35.51:582][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.18-09.35.51:582][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.18-09.35.51:582][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.18-09.35.51:582][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.18-09.36.14:521][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.18-09.36.15:432][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2016.05.18-09.36.23:273][  0]SourceControl: Info Source control is disabled
+[2016.05.18-09.36.23:310][  0]SourceControl: Info Source control is disabled
+[2016.05.18-09.36.24:015][  0]SourceControl: Info Source control is disabled
+[2016.05.18-09.36.24:585][  0]SourceControl: Info Source control is disabled
+[2016.05.18-09.36.29:202][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.18-09.36.32:307][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.78s
+[2016.05.18-09.36.32:549][  0]LogEngine: Initializing Engine...
+[2016.05.18-09.36.35:879][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.18-09.36.36:789][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.18-09.36.36:842][  0]LogInit: FAudioDevice initialized.
+[2016.05.18-09.36.36:848][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/Caroline/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.18-09.36.36:888][  0]LogInit: Texture streaming: Enabled
+[2016.05.18-09.36.38:429][  0]LogInit: Transaction tracking system initialized
+[2016.05.18-09.36.42:694][  0]BlueprintLog: New page: Editor Load
+[2016.05.18-09.36.52:306][  0]LocalizationService: Info Localization service is disabled
+[2016.05.18-09.36.58:399][  0]LogConsoleResponse:Display: 
+[2016.05.18-09.37.00:441][  0]LogFileCache: Scanning file cache for directory 'F:/Effulgent/Content/' took 0.09s
+[2016.05.18-09.37.00:441][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.18-09.37.00:441][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.18-09.37.00:484][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.18-09.37.02:817][  0]SourceControl: Info Source control is disabled
+[2016.05.18-09.37.02:871][  0]Cmd: MAP LOAD FILE="F:/Effulgent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.18-09.37.02:872][  0]LightingResults: New page: Lighting Build
+[2016.05.18-09.37.03:097][  0]MapCheck: New page: Map Check
+[2016.05.18-09.37.03:098][  0]LightingResults: New page: Lighting Build
+[2016.05.18-09.37.10:136][  0]LogTexture:Display: Building textures: Generic-Stone-01_S-G-AO-H (AutoDXT)
+[2016.05.18-09.37.11:320][  0]LogTexture:Display: Building textures: Generic-Stone-01_ALB (AutoDXT)
+[2016.05.18-09.37.12:756][  0]LogTexture:Display: Building textures: Generic-Stone-01_NRM (BC5)
+[2016.05.18-09.37.12:905][  0]LogMaterial: Missing cached shader map for material Tess-Master-Mat, compiling. 
+[2016.05.18-09.37.13:629][  0]LogTexture:Display: Building textures: StoneplatePath_ALB (AutoDXT)
+[2016.05.18-09.37.20:201][  0]LogTexture:Display: Building textures: StoneplatePath_NRM (BC5)
+[2016.05.18-09.37.21:466][  0]LogTexture:Display: Building textures: StoneplatePath_S-G-AO-H (AutoDXT)
+[2016.05.18-09.37.26:936][  0]LogMaterial: Missing cached shader map for material Tess-Master-Mat, compiling. 
+[2016.05.18-09.37.27:444][  0]LogTexture:Display: Building textures: OldStoneGround-02_ALB (AutoDXT)
+[2016.05.18-09.37.34:184][  0]LogTexture:Display: Building textures: OldStoneGround-02_NRM (BC5)
+[2016.05.18-09.37.35:438][  0]LogTexture:Display: Building textures: OldStoneGround-02_S-G-AO-H (AutoDXT)
+[2016.05.18-09.37.41:496][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.18-09.37.41:794][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ground.StaticMeshComponent0)
+[2016.05.18-09.37.41:814][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder_145.StaticMeshComponent0)
+[2016.05.18-09.37.41:814][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder2.StaticMeshComponent0)
+[2016.05.18-09.37.41:817][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
+[2016.05.18-09.37.41:884][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_21.StaticMeshComponent0)
+[2016.05.18-09.37.41:884][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.05.18-09.37.41:886][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube3_94.StaticMeshComponent0)
+[2016.05.18-09.37.41:886][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube4.StaticMeshComponent0)
+[2016.05.18-09.37.41:887][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube13_47.StaticMeshComponent0)
+[2016.05.18-09.37.41:888][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
+[2016.05.18-09.37.41:888][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder5.StaticMeshComponent0)
+[2016.05.18-09.37.42:456][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.18-09.37.42:522][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.18-09.37.42:653][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 130.842ms to complete.
+[2016.05.18-09.37.42:653][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 39.812
+[2016.05.18-09.37.44:352][  0]LogCollectionManager: Loaded 0 collections in 0.002571 seconds
+[2016.05.18-09.37.44:692][  0]LogFileCache: Scanning file cache for directory 'F:/Effulgent/Saved/Collections/' took 0.01s
+[2016.05.18-09.37.44:692][  0]LogFileCache: Scanning file cache for directory 'F:/Effulgent/Content/Developers/Caroline/Collections/' took 0.01s
+[2016.05.18-09.37.44:692][  0]LogFileCache: Scanning file cache for directory 'F:/Effulgent/Content/Collections/' took 0.01s
+[2016.05.18-09.37.44:692][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2016.05.18-09.37.44:760][  0]LogContentBrowser: Native class hierarchy populated in 0.0669 seconds. Added 1979 classes and 343 folders.
+[2016.05.18-09.37.44:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.18-09.37.44:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.18-09.37.44:834][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0028 seconds. Added 12 classes and 0 folders.
+[2016.05.18-09.37.44:885][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2016.05.18-09.37.45:190][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2016.05.18-09.37.46:308][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2016.05.18-09.37.46:450][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2016.05.18-09.37.46:944][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.18-09.37.47:240][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.18-09.37.47:513][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2016.05.18-09.37.47:513][  0]LogLoad: Full Startup: 150.02 seconds (BP compile: 2.15 seconds)
+[2016.05.18-09.37.47:513][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.05.18-09.37.47:601][  0]LogOcInput: OculusInput pre-init called
+[2016.05.18-09.37.48:257][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.05.18-09.37.48:966][  0]LogRenderer: Reallocating scene render targets to support 1044x576 (Frame:2).
+[2016.05.18-09.38.07:630][  1]LogFileCache: Retrieving MD5 hashes for directory 'F:/Effulgent/Content/' took 19.97s
+[2016.05.18-09.38.08:125][  3]LogAssetRegistry: Asset discovery search completed in 112.7149 seconds
+[2016.05.18-09.38.08:129][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.18-09.38.08:129][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.004261 seconds (updated 0 objects)
+[2016.05.18-09.38.08:273][  4]AssetReimport: New page: Outstanding source content changes 4:38:08 am
+[2016.05.18-09.38.08:425][  5]LogEditorFactories: Performing atomic reimport of [F:/Effulgent/Content/Textures/Air.png]
+[2016.05.18-09.38.08:425][  5]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 F:/Effulgent/Content/Textures/Air.png)
+[2016.05.18-09.38.08:512][  5]LogEditorFactories: -- imported successfully
+[2016.05.18-09.38.08:629][  6]LogEditorFactories: Performing atomic reimport of [F:/Effulgent/Content/Textures/Black.png]
+[2016.05.18-09.38.08:629][  6]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 F:/Effulgent/Content/Textures/Black.png)
+[2016.05.18-09.38.08:645][  6]LogEditorFactories: -- imported successfully
+[2016.05.18-09.38.08:741][  7]LogEditorFactories: Performing atomic reimport of [F:/Effulgent/Content/Textures/Earth.png]
+[2016.05.18-09.38.08:741][  7]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 F:/Effulgent/Content/Textures/Earth.png)
+[2016.05.18-09.38.08:756][  7]LogEditorFactories: -- imported successfully
+[2016.05.18-09.38.08:869][  8]LogEditorFactories: Performing atomic reimport of [F:/Effulgent/Content/Textures/Fire.png]
+[2016.05.18-09.38.08:869][  8]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 F:/Effulgent/Content/Textures/Fire.png)
+[2016.05.18-09.38.08:889][  8]LogEditorFactories: -- imported successfully
+[2016.05.18-09.38.08:982][  9]LogEditorFactories: Performing atomic reimport of [F:/Effulgent/Content/Textures/Water.png]
+[2016.05.18-09.38.08:982][  9]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 F:/Effulgent/Content/Textures/Water.png)
+[2016.05.18-09.38.09:000][  9]LogEditorFactories: -- imported successfully
+[2016.05.18-09.38.09:353][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Air" FILE="F:/Effulgent/Content/Textures/Air.uasset" SILENT=true
+[2016.05.18-09.38.09:763][ 10]LogSavePackage: Save=84.95ms
+[2016.05.18-09.38.09:763][ 10]LogSavePackage: Moving 'F:/Effulgent/Saved/AirEBA3A5D0423DDA1B45CE098D7FA40EE4.tmp' to 'F:/Effulgent/Content/Textures/Air.uasset'
+[2016.05.18-09.38.09:763][ 10]LogFileManager:Warning: DeleteFile was unable to delete 'F:/Effulgent/Content/Textures/Air.uasset', retrying in .5s...
+[2016.05.18-09.38.10:265][ 10]LogFileManager:Warning: DeleteFile recovered during retry!
+[2016.05.18-09.38.10:308][ 10]LogSavePackage: Total save time: 929.96ms
+[2016.05.18-09.38.10:308][ 10]LogSavePackage:Display: Finished SavePackage F:/Effulgent/Content/Textures/Air.uasset
+[2016.05.18-09.38.10:370][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Black" FILE="F:/Effulgent/Content/Textures/Black.uasset" SILENT=true
+[2016.05.18-09.38.10:394][ 10]LogSavePackage: Save=4.64ms
+[2016.05.18-09.38.10:394][ 10]LogSavePackage: Moving 'F:/Effulgent/Saved/BlackA5FC4F5549AC38FA36FD5B9D37841D70.tmp' to 'F:/Effulgent/Content/Textures/Black.uasset'
+[2016.05.18-09.38.10:484][ 10]LogSavePackage: Total save time: 96.94ms
+[2016.05.18-09.38.10:484][ 10]LogSavePackage:Display: Finished SavePackage F:/Effulgent/Content/Textures/Black.uasset
+[2016.05.18-09.38.10:502][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Earth" FILE="F:/Effulgent/Content/Textures/Earth.uasset" SILENT=true
+[2016.05.18-09.38.10:603][ 10]LogSavePackage: Save=3.46ms
+[2016.05.18-09.38.10:603][ 10]LogSavePackage: Moving 'F:/Effulgent/Saved/Earth10E6B7FF450C3A46E460F28136495BE4.tmp' to 'F:/Effulgent/Content/Textures/Earth.uasset'
+[2016.05.18-09.38.10:603][ 10]LogFileManager:Warning: DeleteFile was unable to delete 'F:/Effulgent/Content/Textures/Earth.uasset', retrying in .5s...
+[2016.05.18-09.38.11:103][ 10]LogFileManager:Warning: DeleteFile recovered during retry!
+[2016.05.18-09.38.11:161][ 10]LogSavePackage: Total save time: 566.94ms
+[2016.05.18-09.38.11:161][ 10]LogSavePackage:Display: Finished SavePackage F:/Effulgent/Content/Textures/Earth.uasset
+[2016.05.18-09.38.11:190][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Fire" FILE="F:/Effulgent/Content/Textures/Fire.uasset" SILENT=true
+[2016.05.18-09.38.11:209][ 10]LogSavePackage: Save=2.71ms
+[2016.05.18-09.38.11:209][ 10]LogSavePackage: Moving 'F:/Effulgent/Saved/Fire5AEB6B95487F44C69ED6F9A5A2B38AF4.tmp' to 'F:/Effulgent/Content/Textures/Fire.uasset'
+[2016.05.18-09.38.11:283][ 10]LogSavePackage: Total save time: 78.50ms
+[2016.05.18-09.38.11:283][ 10]LogSavePackage:Display: Finished SavePackage F:/Effulgent/Content/Textures/Fire.uasset
+[2016.05.18-09.38.11:293][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Water" FILE="F:/Effulgent/Content/Textures/Water.uasset" SILENT=true
+[2016.05.18-09.38.11:371][ 10]LogSavePackage: Save=43.64ms
+[2016.05.18-09.38.11:371][ 10]LogSavePackage: Moving 'F:/Effulgent/Saved/WaterFC6090E946E641190BE941AC78835FD0.tmp' to 'F:/Effulgent/Content/Textures/Water.uasset'
+[2016.05.18-09.38.11:371][ 10]LogFileManager:Warning: DeleteFile was unable to delete 'F:/Effulgent/Content/Textures/Water.uasset', retrying in .5s...
+[2016.05.18-09.38.11:872][ 10]LogFileManager:Warning: DeleteFile recovered during retry!
+[2016.05.18-09.38.11:971][ 10]LogSavePackage: Total save time: 666.74ms
+[2016.05.18-09.38.11:971][ 10]LogSavePackage:Display: Finished SavePackage F:/Effulgent/Content/Textures/Water.uasset
+[2016.05.18-09.38.15:005][ 78]AssetReimport: Info Reimported asset Air from F:/Effulgent/Content/Textures/Air.png.
+[2016.05.18-09.38.15:005][ 78]AssetReimport: Info Reimported asset Black from F:/Effulgent/Content/Textures/Black.png.
+[2016.05.18-09.38.15:005][ 78]AssetReimport: Info Reimported asset Earth from F:/Effulgent/Content/Textures/Earth.png.
+[2016.05.18-09.38.15:005][ 78]AssetReimport: Info Reimported asset Fire from F:/Effulgent/Content/Textures/Fire.png.
+[2016.05.18-09.38.15:005][ 78]AssetReimport: Info Reimported asset Water from F:/Effulgent/Content/Textures/Water.png.
+[2016.05.18-09.38.18:368][123]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.18-09.38.18:368][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.18-09.38.18:453][123]PIE: New page: SIE session: ThirdPersonExampleMap (19 May 2016 4:38:18 am)
+[2016.05.18-09.38.18:454][123]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.05.18-09.38.18:516][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062762s)
+[2016.05.18-09.38.18:517][123]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.05.18-09.38.18:517][123]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2016.05.18-09.38.18:522][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.068550s)
+[2016.05.18-09.38.18:589][123]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.18-09.38.18:600][123]LogInit: FAudioDevice initialized.
+[2016.05.18-09.38.18:725][123]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.05.18-09.38.18:782][123]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ground.StaticMeshComponent0)
+[2016.05.18-09.38.18:785][123]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder_145.StaticMeshComponent0)
+[2016.05.18-09.38.18:786][123]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder2.StaticMeshComponent0)
+[2016.05.18-09.38.18:790][123]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder3_104.StaticMeshComponent0)
+[2016.05.18-09.38.18:806][123]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube_21.StaticMeshComponent0)
+[2016.05.18-09.38.18:806][123]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube2.StaticMeshComponent0)
+[2016.05.18-09.38.18:808][123]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube3_94.StaticMeshComponent0)
+[2016.05.18-09.38.18:808][123]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube4.StaticMeshComponent0)
+[2016.05.18-09.38.18:810][123]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cube13_47.StaticMeshComponent0)
+[2016.05.18-09.38.18:811][123]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder4_60.StaticMeshComponent0)
+[2016.05.18-09.38.18:811][123]LogPrimitiveComponent: Zero scaling not supported (/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Cylinder5.StaticMeshComponent0)
+[2016.05.18-09.38.18:822][123]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.05.18-19.08.18
+[2016.05.18-09.38.18:861][123]LogWorld: Bringing up level for play took: 0.080237
+[2016.05.18-09.38.18:931][123]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.18-09.38.18:977][123]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 9 classes and 0 folders.
+[2016.05.18-09.38.19:008][123]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.316
+[2016.05.18-09.38.19:048][123]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.18-09.38.37:704][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.18-09.38.37:894][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.05.18-09.38.39:986][511]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.18-09.38.40:338][512]Cmd: QUIT_EDITOR
+[2016.05.18-09.38.41:591][512]LogExit: Preparing to exit.
+[2016.05.18-09.38.43:054][512]LogExit: Editor shut down
+[2016.05.18-09.38.43:055][512]LogExit: Transaction tracking system shut down
+[2016.05.18-09.38.43:596][512]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.18-09.38.43:596][512]LogExit: Object subsystem successfully closed.
+[2016.05.18-09.38.43:723][512]LogD3D11RHI: Shutdown
+[2016.05.18-09.38.43:724][512]LogD3D11RHI: CleanupD3DDevice
+[2016.05.18-09.38.43:819][512]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.18-09.38.43:910][512]LogDerivedDataCache: Shutdown
+[2016.05.18-09.38.44:176][512]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (205)
+[2016.05.18-09.38.44:176][512]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.05.18-09.38.44:189][512]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.05.18-09.38.44:189][512]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.05.18-09.38.44:189][512]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.18-09.38.44:189][512]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.18-09.38.44:189][512]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.18-09.38.44:190][512]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.18-09.38.44:190][512]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.18-09.38.44:190][512]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.18-09.38.44:190][512]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.18-09.38.44:211][512]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.18-09.38.44:211][512]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.18-09.38.44:224][512]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.18-09.38.44:224][512]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.18-09.38.44:224][512]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.18-09.38.44:224][512]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.18-09.38.44:224][512]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.18-09.38.44:224][512]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.18-09.38.44:224][512]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.18-09.38.44:224][512]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.18-09.38.44:224][512]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.18-09.38.44:224][512]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.18-09.38.44:260][512]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.18-09.38.44:280][512]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.18-09.38.44:292][512]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.18-09.38.44:292][512]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.18-09.38.44:292][512]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.18-09.38.44:292][512]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.18-09.38.45:031][512]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.18-09.38.45:031][512]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.18-09.38.45:031][512]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.18-09.38.45:031][512]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.18-09.38.45:086][512]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.18-09.38.45:086][512]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.18-09.38.45:086][512]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.18-09.38.45:086][512]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.18-09.38.45:086][512]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.18-09.38.45:091][512]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.18-09.38.45:100][512]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.18-09.38.45:109][512]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.18-09.38.45:117][512]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.18-09.38.45:117][512]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.18-09.38.45:117][512]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.18-09.38.45:117][512]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.18-09.38.45:117][512]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.18-09.38.45:117][512]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.18-09.38.45:117][512]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.18-09.38.45:117][512]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.18-09.38.45:146][512]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.18-09.38.45:164][512]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.18-09.38.45:175][512]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.18-09.38.45:208][512]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.18-09.38.45:208][512]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.18-09.38.45:247][512]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.18-09.38.45:270][512]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.18-09.38.45:293][512]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.18-09.38.45:327][512]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.18-09.38.45:327][512]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.18-09.38.45:358][512]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.18-09.38.45:358][512]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.18-09.38.45:392][512]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.18-09.38.45:399][512]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.18-09.38.45:436][512]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.18-09.38.45:440][512]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.18-09.38.45:440][512]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.18-09.38.45:469][512]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.18-09.38.45:469][512]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.18-09.38.45:469][512]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.18-09.38.45:474][512]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.18-09.38.45:474][512]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.18-09.38.45:474][512]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.18-09.38.45:474][512]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.18-09.38.45:474][512]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.18-09.38.45:474][512]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.18-09.38.45:474][512]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.18-09.38.45:474][512]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.18-09.38.45:474][512]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.18-09.38.45:474][512]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.18-09.38.45:474][512]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.18-09.38.45:603][512]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.18-09.38.45:617][512]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.18-09.38.45:617][512]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.18-09.38.45:617][512]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.18-09.38.45:617][512]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.18-09.38.45:617][512]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.18-09.38.45:617][512]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.18-09.38.45:617][512]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.18-09.38.45:617][512]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.18-09.38.45:617][512]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.18-09.38.45:617][512]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.18-09.38.45:638][512]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.18-09.38.45:639][512]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.18-09.38.45:639][512]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.18-09.38.45:640][512]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.18-09.38.45:640][512]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.18-09.38.45:963][512]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.18-09.38.45:964][512]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.18-09.38.45:968][512]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.18-09.38.46:069][512]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.18-09.38.46:069][512]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.18-09.38.46:069][512]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.18-09.38.46:069][512]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.18-09.38.46:069][512]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.18-09.38.46:083][512]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.18-09.38.46:083][512]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.18-09.38.46:083][512]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.18-09.38.46:083][512]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.18-09.38.46:083][512]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.18-09.38.46:083][512]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.18-09.38.46:113][512]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.18-09.38.46:124][512]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.18-09.38.46:124][512]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.18-09.38.46:137][512]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.18-09.38.46:137][512]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.18-09.38.46:137][512]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.18-09.38.46:161][512]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.18-09.38.46:196][512]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.18-09.38.46:208][512]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.18-09.38.46:231][512]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.18-09.38.46:245][512]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.18-09.38.46:245][512]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.18-09.38.46:248][512]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.18-09.38.46:248][512]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.18-09.38.46:248][512]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.18-09.38.46:248][512]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.18-09.38.46:248][512]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.18-09.38.46:248][512]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.18-09.38.46:248][512]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.18-09.38.46:248][512]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.18-09.38.46:248][512]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.18-09.38.46:267][512]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.18-09.38.46:267][512]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.18-09.38.46:267][512]LogDerivedDataCache: Shutdown
+[2016.05.18-09.38.46:267][512]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.18-09.38.46:300][512]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.18-09.38.46:300][512]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.18-09.38.46:311][512]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.18-09.38.46:311][512]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.18-09.38.46:311][512]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.18-09.38.46:311][512]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.18-09.38.46:311][512]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.18-09.38.46:311][512]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.18-09.38.46:311][512]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.18-09.38.46:311][512]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.18-09.38.46:311][512]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.18-09.38.46:311][512]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.18-09.38.46:312][512]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.18-09.38.48:314][512]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.18-09.38.48:359][512]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.18-09.38.48:378][512]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.18-09.38.48:378][512]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.18-09.38.48:378][512]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.18-09.38.48:378][512]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.18-09.38.48:378][512]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.18-09.38.48:393][512]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.18-09.38.48:414][512]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.18-09.38.48:414][512]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.18-09.38.48:414][512]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.18-09.38.48:414][512]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.18-09.38.48:414][512]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.18-09.38.48:414][512]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.18-09.38.48:427][512]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.18-09.38.48:427][512]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.18-09.38.48:449][512]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.18-09.38.48:461][512]LogExit: Exiting.
+[2016.05.18-09.38.48:463][512]Log file closed, 05/18/16 19:08:48
